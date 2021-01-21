@@ -1,5 +1,5 @@
 # key points estimation and point instance segmentation approach for lane detection
-link:[https://arxiv.org/abs/2002.06604](https://arxiv.org/abs/2002.06604)  
+* link:[https://arxiv.org/abs/2002.06604](https://arxiv.org/abs/2002.06604)  
 
 ## Acknowledgement
 The project refers to the following projects:
@@ -56,6 +56,6 @@ You can train the model as following:
 ## 
 The testing results are as follows:
 
-* ![pic](https://github.com/Derteanoo/PINet_quantization/blob/master/pinet_quantization_test/test_pic_res/city_day3.mp4_20200818_165445248.jpg）
+![pic](https://github.com/Derteanoo/PINet_quantization/blob/master/pinet_quantization_test/test_pic_res/city_day3.mp4_20200818_165445248.jpg）
 
 
