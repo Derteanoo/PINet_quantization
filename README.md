@@ -18,18 +18,24 @@ tqdm
 ## My work
 * Implement quantize aware training in pytorch
 * Crop out the sky area and reconstruct the lane dataset
-* Redesign the backbone 
-
+* Redesign the backbone with just 238M FLOPs(original PINet 4G FLOPs) and the result is not decrease
 
 ## Datasets
 We train and test the model on our own dataset in the same format as the Tusimple dataset.
 
-## 
-
 ## Test
+We provide trained model, and it is saved in "savefile" directory. You can test as following,
+`sh test.sh`
 
+It has some mode like following functions.
+mode 1 : Run the model on the given video. If you want to use this mode, enter your video path at line 63 in "test.py"
+mode 2 : Run the model on the given image. If you want to use this mode, enter your image path at line 82 in "test.py"
+mode 3 : Test the model on whole test set, and save result as json file.
+You can change mode at line 22 in "parameters.py".
 
 ## Train
+You can train the model as following:
+`sh train.sh`
 
 ##
 
