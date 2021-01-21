@@ -25,14 +25,18 @@ tqdm
 
 ## My work
 * Implement quantize aware training in pytorch
+
 * Crop out the sky area and reconstruct the lane dataset
+
 * Redesign the backbone with just 238M FLOPs(original PINet 4G FLOPs) and the result is not decrease
+
 
 ## Datasets
 We train and test the model on our own dataset in the same format as the Tusimple dataset.
 
 ## Test
 We provide trained model, and it is saved in "savefile" directory. You can test as following,
+
 `sh pinet_quantization_test/test.sh`
 
 It has some mode like following functions.
@@ -46,9 +50,12 @@ You can change mode at line 22 in "parameters.py".
 
 ## Train
 You can train the model as following:
+
 `sh pinet_quantization_train/train.sh`
 
-##
+## 
+The testing results are as follows:
 
+![pic](https://github.com/Derteanoo/PINet_quantization/blob/master/pinet_quantization_test/test_pic_res/city_day3.mp4_20200818_165445248.jpg）
 
 
