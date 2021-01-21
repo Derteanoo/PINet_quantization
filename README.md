@@ -53,9 +53,9 @@ You can train the model as following:
 
 `sh pinet_quantization_train/train.sh`
 
-## 
+## Result
 The testing results are as follows:
 
-![pic](https://raw.githubusercontent.com/Derteanoo/PINet_quantization/master/pinet_quantization_test/test_pic_res/city_day2.mp4_20200818_165557183.jpg）
+![picc](https://github.com/Derteanoo/PINet_quantization/blob/master/pinet_quantization_test/test_pic_res/city_day2.mp4_20200818_165557183.jpg?raw=true)
 
 
