@@ -56,6 +56,6 @@ You can train the model as following:
 ## Result
 The testing results are as follows:
 
-![picc](https://github.com/Derteanoo/PINet_quantization/blob/master/pinet_quantization_test/test_pic_res/city_day2.mp4_20200818_165557183.jpg?raw=true)
+![picc](https://github.com/Derteanoo/PINet_quantization/blob/master/pinet_quantization_test/test_pic_res/00066.jpg?raw=true)
 
 
