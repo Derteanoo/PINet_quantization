@@ -28,7 +28,7 @@ tqdm
 
 * Crop out the sky area and reconstruct the lane dataset
 
-* Redesign the backbone with just 238M FLOPs(original PINet 4G FLOPs) and the result is not decrease
+* Redesign the backbone with just 238M FLOPs(original PINet 4G FLOPs) and the result does not decrease
 
 
 ## Datasets
