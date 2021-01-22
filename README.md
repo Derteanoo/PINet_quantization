@@ -40,6 +40,7 @@ We provide trained model, and it is saved in "savefile" directory. You can test 
 `sh pinet_quantization_test/test.sh`
 
 It has some mode like following functions.
+
 mode 1 : Run the model on the given video. If you want to use this mode, enter your video path at line 63 in "test.py"
 
 mode 2 : Run the model on the given image. If you want to use this mode, enter your image path at line 82 in "test.py"
